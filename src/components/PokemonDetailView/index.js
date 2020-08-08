@@ -11,7 +11,7 @@ function PokemonDetailView({ details }) {
         <div className="perfil">
           <img
             src={details?.sprites.other.dream_world.front_default}
-            alt={details?.name}
+            alt="Pokemon"
           />
           <h3>#{details?.id} {details?.name}</h3>
           <div className="poke-types">
