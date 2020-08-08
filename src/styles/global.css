@@ -1,0 +1,33 @@
+:root {
+  font-size: 62.5%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #eee;
+}
+
+body, input, button {
+  font: 1.6rem Roboto;
+}
+
+@media (max-width: 578.98px) {
+  :root {
+    font-size: 60%;
+  }
+}

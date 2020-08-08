@@ -1,0 +1,59 @@
+#poke-detail-view {
+  display: grid;
+  grid-template-columns: 40% 10% 50%;
+  column-gap: 1.5rem;
+}
+
+#poke-detail-view .perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#poke-detail-view .perfil img {
+  height: 10rem;
+}
+
+#poke-detail-view .perfil h3 {
+  text-transform: capitalize;
+  margin: 1.8rem 0;
+}
+
+#poke-detail-view .perfil .poke-types small {
+  background-color: rgb(51, 207, 225);
+  color: #fff;
+  padding: .4rem 1rem;
+  border-radius: .4rem;
+}
+
+#poke-detail-view .perfil .poke-types small:first-child {
+  margin-right: .8rem;
+}
+
+#poke-detail-view .separator {
+  border-left: 1px solid #ddd;
+  height: 22rem;
+  margin: 0 2.4rem;
+}
+
+#poke-detail-view .info {
+  display: flex;
+  align-items: center;
+}
+
+#poke-detail-view .info ul {
+  list-style: none;
+}
+
+#poke-detail-view .info ul li + li {
+  margin-top: 1.4rem;
+}
+
+#poke-detail-view .info ul li span {
+  margin-left: .4rem;
+  font-weight: bold;
+}
+
+
+
