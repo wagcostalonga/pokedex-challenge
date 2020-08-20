@@ -13,7 +13,7 @@ const PokemonStarred = ({ handleRemoveFromStarred, handleGoToDetails }) => {
 
   return (
     <div id="poke-star">
-      <h3>You may carry up just 6 pokemons at once!</h3>
+      <h3>Carry up just 6 pokemons at once!</h3>
       <div className="line"/>
 
       <ul>
