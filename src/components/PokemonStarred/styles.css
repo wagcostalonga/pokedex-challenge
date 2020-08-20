@@ -1,0 +1,103 @@
+#poke-star {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#poke-star h3 {
+  text-align: center;
+  line-height: 2.8rem;
+}
+
+#poke-star .line {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  margin: 1.4rem 0;
+}
+
+#poke-star ul {
+  list-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+#poke-star ul li + li {
+  margin-top: .4rem;
+}
+
+#poke-star ul li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#poke-star ul li .go-to-details {
+  flex: 1;
+  justify-items: flex-start;
+  border: 0;
+  background-color: #eee;
+  border-radius: .4rem 0 0 .4rem;
+  padding: .4rem 1rem;
+  height: 2.8rem;
+  cursor: pointer;
+  outline: none;
+  transition: all .2s;
+}
+
+#poke-star ul li .go-to-details:hover {
+  background-color: #ffcce0;
+}
+
+#poke-star ul li .go-to-details span {
+  text-transform: capitalize;
+  display: flex;
+  justify-self: flex-start;
+}
+
+#poke-star ul li .remove {
+  height: 2.8rem;
+  width: 2.8rem;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  outline: none;
+  background-color: #fe0065;
+  padding: .4rem;
+  border-radius: 0 .4rem .4rem 0;
+  transition: all .2s;
+}
+
+#poke-star ul li .remove:hover {
+  background-color: #cf0052;
+}
+
+#poke-star .footer a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #999;
+  transition: all .2s;
+}
+
+#poke-star .footer a:hover {
+  color: #000;
+}
+
+#poke-star .footer a small{
+  margin-right: .4rem;
+}
+
+#poke-star .footer a svg{
+  width: 1.4rem;
+}
+
+@media screen and (max-width: 400px) {
+  #poke-star h2 {
+    font-size: 2.2rem;
+  }
+}

@@ -31,3 +31,9 @@ body, input, button {
     font-size: 60%;
   }
 }
+
+@media (max-width: 400px) {
+  :root {
+    font-size: 50%;
+  }
+}

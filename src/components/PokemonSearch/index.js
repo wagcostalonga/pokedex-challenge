@@ -1,5 +1,6 @@
 import React from 'react';
-import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+import { FiArrowLeft, FiArrowRight, FiStar } from 'react-icons/fi';
 
 import './styles.css';
 
@@ -48,6 +49,16 @@ function PokemonSearch({
           nextUrl && handleNextPage}>
           <FiArrowRight />
         </button>
+      </div>
+      <div className="line"/>
+
+      <div className="footer">
+        <Link to="/starred">
+          <small>
+            See your starred pokemons list
+          </small>
+          <FiStar />
+        </Link>
       </div>
     </div>
   );
