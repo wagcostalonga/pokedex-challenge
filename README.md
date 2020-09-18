@@ -4,15 +4,17 @@
 
 <br />      
 <p>
-  A idéia aqui é recriar uma pokedex numa página web, semelhante a uma pokedex original, através do CSS e definir os atributos solicitados pelo desafio utilizando a API oficial <a href="https://pokeapi.co/">Poke.Api</a>:<br />
-  - Criar um input de busca por nome ou ID do pokemon;
-  - Listar todos os pokemons, 10 por página e setar botões de "voltar" e "avançar";
-  - Fazer a requisição do pokemon e mostrá-lo junto aos seus atributos;
-  - Criar um botão de favoritar;
-  - Listar até 6 pokemons favoritos, podendo armazená-los, removê-los e substituí-los por outros;
+  A idéia aqui é recriar uma pokedex numa página web, semelhante a uma pokedex original, através do CSS e definir os atributos solicitados pelo desafio utilizando a API oficial <a href="https://pokeapi.co/">Poke.Api</a>:<br /><br />
+  - Criar um input de busca por nome ou ID do pokemon; <br />
+  - Listar todos os pokemons, 10 por página e setar botões de "voltar" e "avançar";<br />
+  - Fazer a requisição do pokemon e mostrá-lo junto aos seus atributos;<br />
+  - Criar um botão de favoritar;<br />
+  - Listar até 6 pokemons favoritos, podendo armazená-los, removê-los e substituí-los por outros;<br />
   - Responsividade.
+  </p>
   
-</p>
+### `yarn` 
+<p>Clone e utilize "yarn" para baixar as dependências.</p> 
 
 ### **Tecnologias e Bibliotecas utilizadas**
 
