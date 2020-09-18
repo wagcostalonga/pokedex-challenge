@@ -14,7 +14,7 @@
   </p>
   
 ### `yarn` 
-<p>Clone e utilize "yarn" para baixar as dependências.</p> 
+<p>Clone este projeto, utilize "yarn" para baixar as dependências e "yarn start" para rodar.</p> 
 
 ### **Tecnologias e Bibliotecas utilizadas**
 
