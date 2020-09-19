@@ -24,6 +24,10 @@ Frontend:
 - Redux;
 - Axios;
 
+### **Deploy**
+
+<p>Acesse: <a href="https://pokedex-wagner.netlify.app/">https://pokedex-wagner.netlify.app/</a></p>
+
 <br />
 
 <p align="center">
